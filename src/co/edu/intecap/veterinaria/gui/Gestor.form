@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="btnJugar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnDormir" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnVacunar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="btnComer" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnBeber" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnDefecar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Component id="pnActividadPerro" alignment="1" max="32767" attributes="0"/>
+          <Component id="pnActividadGato" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnJugar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnDormir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnVacunar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnComer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnBeber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnDefecar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="pnActividadPerro" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="pnActividadGato" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btnJugar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jugar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnDormir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dormir"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnVacunar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vacunar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnComer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Comer"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBeber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Beber"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnDefecar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Defecar"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="pnActividadPerro">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnLadrar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnMorder" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnCorrer" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnLadrar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMorder" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCorrer" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="btnMorder">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Morder"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnLadrar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ladrar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCorrer">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Correr"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="pnActividadGato">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnAranar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnLamer" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnMaullar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnAranar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnLamer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMaullar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="btnAranar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ara&#xf1;ar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnLamer">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lamer"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnMaullar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Maullar"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
